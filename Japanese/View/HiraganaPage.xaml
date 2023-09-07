@@ -1,0 +1,85 @@
+﻿<Page
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Japanese.View"
+      xmlns:ViewModel="clr-namespace:Japanese.ViewModel" x:Class="Japanese.View.HiraganaPage"
+      xmlns:Utilities="clr-namespace:Japanese.Utilities"
+      mc:Ignorable="d" 
+      d:DesignHeight="570" d:DesignWidth="970"
+      Title="HiraganaPage" Focusable="False">
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Style/ButtonStyle.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <Utilities:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Page.DataContext>
+        <ViewModel:HiraganaPageViewModel/>
+    </Page.DataContext>
+
+    <Grid Background="#FFDFE5E1">
+        <!-- Background image -->
+        <DockPanel>
+            <DockPanel.Background>
+                <ImageBrush Stretch="Uniform" AlignmentY="Bottom" ImageSource="/Images/Graphismes/Hiragana_Page.png"/>
+            </DockPanel.Background>
+        </DockPanel>
+
+        <Canvas>
+            <!-- Menu button -->
+            <Button x:Name="ButtonMenu" Canvas.Left="20" Canvas.Bottom="505" Width="115" Height="42" Command="{Binding HomePageCommand}" Focusable="False"
+                    BorderThickness="0" Cursor="Hand" Style="{StaticResource NoHoverColor}" AutomationProperties.Name="Go back to Menu" ToolTip="Shortcut : &quot;Alt + M&quot;">
+                <AccessText Text="_M" Opacity="0"/>
+                <Button.Background>
+                    <ImageBrush ImageSource="/Images/Graphismes/Button_Menu.png" Stretch="Uniform"/>
+                </Button.Background>
+            </Button>
+
+            <!-- Different hiragana image-->
+            <Label Content="{Binding HiraganaText}" Width="262" HorizontalAlignment="Center" VerticalAlignment="Center" Canvas.Left="545" Canvas.Top="100"
+                   FontSize="20" FontWeight="Bold" Height="40" FontFamily="Arial Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Border CornerRadius="6" BorderThickness="6" Canvas.Left="545" Canvas.Top="165" BorderBrush="#FF6F3400">
+                <Grid Width="250" Height="250" Background="#FFF6F7F2">
+                    <Image Source="{Binding CurrentImage}" Visibility="{Binding IsHiraganaChecked, Converter={StaticResource BooleanToVisibilityConverter}}"/>
+                </Grid>
+            </Border>
+
+            <!-- Previous & Next button-->
+            <Button x:Name="ButtonPrevious" Canvas.Left="545" Canvas.Top="432" Width="131" Height="42" Command="{Binding PreviousCommand}" Focusable="False"
+                BorderThickness="0" Cursor="Hand" Style="{StaticResource NoHoverColor}" AutomationProperties.Name="Previous Image" ToolTip="Shortcut : &quot;Alt + Q&quot;">
+                <AccessText Text="_Q" Opacity="0"/>
+                <Button.Background>
+                    <ImageBrush ImageSource="/Images/Graphismes/Button_Previous.png" Stretch="Uniform"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="ButtonNext" Canvas.Left="676" Canvas.Top="432" Width="131" Height="42" Command="{Binding NextCommand}" Focusable="False"
+                BorderThickness="0" Cursor="Hand" Style="{StaticResource NoHoverColor}" AutomationProperties.Name="Next Image" ToolTip="Shortcut : &quot;Alt + D&quot;">
+                <AccessText Text="_D" Opacity="0"/>
+                <Button.Background>
+                    <ImageBrush ImageSource="/Images/Graphismes/Button_Next.png" Stretch="Uniform"/>
+                </Button.Background>
+            </Button>
+
+            <!-- Checkbox -->
+            <StackPanel HorizontalAlignment="Left" Canvas.Left="10" Orientation="Vertical" Canvas.Bottom="175" VerticalAlignment="Top">
+                <CheckBox Content="Display Hiragana" IsChecked="{Binding IsHiraganaChecked}" Focusable="False"/>
+                <CheckBox Content="Pronunciation" Margin="0,5,0,0" IsChecked="{Binding IsPronunciationChecked}" Focusable="False"/>
+                <CheckBox Content="Number of strokes" Margin="0,5,0,0" IsChecked="{Binding IsNbOfStrokesChecked}" Focusable="False"/>
+                <CheckBox Content="_All Toggle" Margin="0,15,0,0" IsChecked="{Binding ToggleAllChecked}" Focusable="False" ToolTip="Shortcut : &quot;Alt + A&quot;"/>
+            </StackPanel>
+
+            <!-- Textblock -->
+            <StackPanel Canvas.Left="200" Canvas.Top="230" Width="305">
+                <TextBlock Text="Pronunciation" FontWeight="Bold" TextDecorations="Underline" FontFamily="Arial Black" FontSize="16"/>
+                <TextBlock Text="{Binding PronunciationText}" Margin="25,0,0,5" Width="280" Height="40" TextWrapping="Wrap" FontSize="16" Visibility="{Binding IsPronunciationChecked, Converter={StaticResource BooleanToVisibilityConverter}}"/>
+                <TextBlock Text="Number of strokes" FontWeight="Bold" TextDecorations="Underline" FontFamily="Arial Black" FontSize="16"/>
+                <TextBlock Text="{Binding NbOfStrokesText}" Margin="25,0,0,0" Width="280" Height="40" TextWrapping="Wrap" FontSize="16" Visibility="{Binding IsNbOfStrokesChecked, Converter={StaticResource BooleanToVisibilityConverter}}"/>
+            </StackPanel>
+        </Canvas>
+    </Grid>
+</Page>

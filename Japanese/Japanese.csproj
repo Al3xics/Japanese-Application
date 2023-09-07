@@ -1,0 +1,754 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>True</UseWindowsForms>
+    <ApplicationIcon>Images\Graphismes\Logo_(ico).ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Images\Kanji\**" />
+    <EmbeddedResource Remove="Images\Kanji\**" />
+    <None Remove="Images\Kanji\**" />
+    <Page Remove="Images\Kanji\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Graphismes\Bouton Fermer.png" />
+    <None Remove="Images\Graphismes\Bouton Hiragana.png" />
+    <None Remove="Images\Graphismes\Bouton Kanji.png" />
+    <None Remove="Images\Graphismes\Bouton Katakana.png" />
+    <None Remove="Images\Graphismes\Bouton Menu.png" />
+    <None Remove="Images\Graphismes\Bouton Précédent.png" />
+    <None Remove="Images\Graphismes\Bouton Suivant.png" />
+    <None Remove="Images\Graphismes\Boutons Moins.png" />
+    <None Remove="Images\Graphismes\Button_Add_Kanji.png" />
+    <None Remove="Images\Graphismes\Button_Close.png" />
+    <None Remove="Images\Graphismes\Button_Delete.png" />
+    <None Remove="Images\Graphismes\Button_Download_Data.png" />
+    <None Remove="Images\Graphismes\Button_Hiragana.png" />
+    <None Remove="Images\Graphismes\Button_Kanji.png" />
+    <None Remove="Images\Graphismes\Button_Kanji_Details.png" />
+    <None Remove="Images\Graphismes\Button_Katakana.png" />
+    <None Remove="Images\Graphismes\Button_Menu.png" />
+    <None Remove="Images\Graphismes\Button_Minus.png" />
+    <None Remove="Images\Graphismes\Button_Next.png" />
+    <None Remove="Images\Graphismes\Button_Previous.png" />
+    <None Remove="Images\Graphismes\Button_Save.png" />
+    <None Remove="Images\Graphismes\Button_Search.png" />
+    <None Remove="Images\Graphismes\Button_Select_Folder.png" />
+    <None Remove="Images\Graphismes\Button_Select_Image.png" />
+    <None Remove="Images\Graphismes\Button_Select_JSON.png" />
+    <None Remove="Images\Graphismes\Button_Switch_Folder.png" />
+    <None Remove="Images\Graphismes\Button_Switch_Image.png" />
+    <None Remove="Images\Graphismes\Classic_Page.png" />
+    <None Remove="Images\Graphismes\Fond d%27écran Accueil.png" />
+    <None Remove="Images\Graphismes\Fond d%27écran Hiragana.png" />
+    <None Remove="Images\Graphismes\Fond d%27écran Kanji.png" />
+    <None Remove="Images\Graphismes\Fond d%27écran Katakana.png" />
+    <None Remove="Images\Graphismes\Hiragana_Page.png" />
+    <None Remove="Images\Graphismes\Home_Page.png" />
+    <None Remove="Images\Graphismes\Kanji_Page.png" />
+    <None Remove="Images\Graphismes\Katakana_Page.png" />
+    <None Remove="Images\Graphismes\Logo %28ico%29.ico" />
+    <None Remove="Images\Graphismes\Logo %28png%29.png" />
+    <None Remove="Images\Graphismes\Logo.ico" />
+    <None Remove="Images\Graphismes\Logo.png" />
+    <None Remove="Images\Graphismes\Logo_%28ico%29.ico" />
+    <None Remove="Images\Graphismes\No_Image.png" />
+    <None Remove="Images\Hiragana.json" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_A.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_BA.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_BE.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_BI.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_BO.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_BU.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_DA.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_DE.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_DI.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_DO.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_DU.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_E.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_GA.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_GE.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_GI.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_GO.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_GU.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_HA.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_HE.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_HI.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_HO.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_HU.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_I.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_KA.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_KE.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_KI.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_KO.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_KU.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_MA.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_ME.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_MI.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_MO.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_MU.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_N.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_NA.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_NE.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_NI.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_NO.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_NU.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_O.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_PA.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_PE.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_PI.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_PO.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_PU.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_RA.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_RE.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_RI.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_RO.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_RU.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_SA.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_SE.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_SI.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_SO.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_SU.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_TA.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_TE.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_TI.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_TO.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_TU.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_U.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_WA.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_WE.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_WI.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_WO.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_YA.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_YO.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_YU.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_ZA.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_ZE.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_ZI.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_ZO.png" />
+    <None Remove="Images\Hiragana\Japanese_Hiragana_kyokashotai_ZU.png" />
+    <None Remove="Images\Kanji.csv" />
+    <None Remove="Images\Kanji.json" />
+    <None Remove="Images\Katakana.json" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_A.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_BA.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_BE.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_BI.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_BO.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_BU.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_DA.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_DE.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_DI.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_DO.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_DU.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_E.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_GA.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_GE.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_GI.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_GO.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_GU.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_HA.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_HE.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_HI.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_HO.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_HU.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_I.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_KA.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_KE.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_KI.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_KO.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_KU.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_MA.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_ME.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_MI.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_MO.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_MU.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_N.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_NA.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_NE.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_NI.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_NO.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_NU.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_O.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_PA.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_PE.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_PI.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_PO.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_PU.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_RA.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_RE.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_RI.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_RO.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_RU.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_SA.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_SE.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_SI.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_SO.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_SU.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_TA.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_TE.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_TI.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_TO.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_TU.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_U.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_WA.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_WE.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_WI.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_WO.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_YA.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_YO.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_YU.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_ZA.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_ZE.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_ZI.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_ZO.png" />
+    <None Remove="Images\Katakana\Japanese_Katakana_kyokashotai_ZU.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\Graphismes\Button_Add_Kanji.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Graphismes\Button_Close.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Graphismes\Button_Delete.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Graphismes\Button_Download_Data.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Graphismes\Button_Hiragana.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Graphismes\Button_Kanji.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Graphismes\Button_Kanji_Details.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Graphismes\Button_Katakana.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Graphismes\Button_Menu.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Graphismes\Button_Minus.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Graphismes\Button_Next.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Graphismes\Button_Previous.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Graphismes\Button_Save.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Graphismes\Button_Select_Folder.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Graphismes\Button_Select_Image.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Graphismes\Button_Select_JSON.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Graphismes\Button_Switch_Folder.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Graphismes\Button_Switch_Image.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Graphismes\Classic_Page.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Graphismes\Hiragana_Page.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Graphismes\Home_Page.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Graphismes\Kanji_Page.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Graphismes\Katakana_Page.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Graphismes\Logo_(ico).ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Graphismes\Logo_(png).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Graphismes\No_Image.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_A.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_BA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_BE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_BI.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_BO.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_BU.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_DA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_DE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_DI.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_DO.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_DU.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_E.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_GA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_GE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_GI.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_GO.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_GU.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_HA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_HE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_HI.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_HO.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_HU.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_I.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_KA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_KE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_KI.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_KO.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_KU.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_MA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_ME.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_MI.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_MO.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_MU.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_N.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_NA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_NE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_NI.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_NO.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_NU.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_O.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_PA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_PE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_PI.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_PO.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_PU.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_RA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_RE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_RI.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_RO.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_RU.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_SA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_SE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_SI.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_SO.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_SU.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_TA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_TE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_TI.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_TO.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_TU.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_U.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_WA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_WE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_WI.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_WO.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_YA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_YO.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_YU.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_ZA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_ZE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_ZI.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_ZO.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hiragana\Japanese_Hiragana_kyokashotai_ZU.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_A.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_BA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_BE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_BI.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_BO.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_BU.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_DA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_DE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_DI.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_DO.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_DU.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_E.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_GA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_GE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_GI.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_GO.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_GU.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_HA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_HE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_HI.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_HO.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_HU.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_I.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_KA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_KE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_KI.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_KO.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_KU.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_MA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_ME.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_MI.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_MO.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_MU.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_N.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_NA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_NE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_NI.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_NO.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_NU.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_O.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_PA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_PE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_PI.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_PO.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_PU.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_RA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_RE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_RI.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_RO.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_RU.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_SA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_SE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_SI.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_SO.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_SU.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_TA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_TE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_TI.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_TO.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_TU.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_U.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_WA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_WE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_WI.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_WO.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_YA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_YO.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_YU.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_ZA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_ZE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_ZI.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_ZO.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Katakana\Japanese_Katakana_kyokashotai_ZU.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Publish\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Images\Graphismes\Logo_%28png%29.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

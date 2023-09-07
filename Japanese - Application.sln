@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Japanese", "Japanese\Japanese.csproj", "{9C47843C-BD93-41D7-AFE2-6BD8DAC2EE01}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Japanese - Installer", "Japanese - Installer\Japanese - Installer.vdproj", "{8DB033FD-D315-41EA-80DD-D7B6E0C8F6A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C47843C-BD93-41D7-AFE2-6BD8DAC2EE01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C47843C-BD93-41D7-AFE2-6BD8DAC2EE01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C47843C-BD93-41D7-AFE2-6BD8DAC2EE01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C47843C-BD93-41D7-AFE2-6BD8DAC2EE01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DB033FD-D315-41EA-80DD-D7B6E0C8F6A3}.Debug|Any CPU.ActiveCfg = Debug
+		{8DB033FD-D315-41EA-80DD-D7B6E0C8F6A3}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E7E0EC2-1F4F-4B7A-BC36-915B46FB4AF5}
+	EndGlobalSection
+EndGlobal

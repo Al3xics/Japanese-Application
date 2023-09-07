@@ -1,0 +1,54 @@
+﻿<Window x:Name="Window" x:Class="Japanese.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Japanese"
+        mc:Ignorable="d"
+        Title="Japanese" Height="600" Width="1000" WindowStartupLocation="CenterScreen" Icon="/Images/Graphismes/Logo_(ico).ico"
+        AllowsTransparency="True" Background="Transparent"
+        WindowStyle="None" ResizeMode="NoResize" MouseLeftButtonDown="Window_MouseLeftButtonDown" Focusable="False">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Style/ButtonStyle.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <!-- Round border -->
+    <Border CornerRadius="10" BorderThickness="10">
+        <Border.BorderBrush>
+            <SolidColorBrush Color="#FF703400"/>
+        </Border.BorderBrush>
+
+        <Grid Background="#FFDFE5E1">
+            <!-- Frame containing pages -->
+            <Frame Name="Pages" NavigationUIVisibility="Hidden" Source="/View/HomePage.xaml" Focusable="False"/>
+
+            <!-- Minimize & Close button-->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Top">
+                <Button x:Name="ButtonMinimize" Command="{Binding MinimizeCommand}" Width="30" Height="30" BorderBrush="Transparent" Cursor="Hand"
+                        Focusable="False" Style="{StaticResource MinusButtonHoverColor}" AutomationProperties.Name="Minimize the window" ToolTip="Minimize">
+                    <Button.Background>
+                        <VisualBrush>
+                            <VisualBrush.Visual>
+                                <Image Source="/Images/Graphismes/Button_Minus.png" Stretch="Uniform" />
+                            </VisualBrush.Visual>
+                        </VisualBrush>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="ButtonClose" Command="{Binding CloseCommand}" Width="30" Height="30" BorderBrush="Transparent" Cursor="Hand"
+                        Focusable="False" Style="{StaticResource CloseButtonHoverColor}" AutomationProperties.Name="Close the window" ToolTip="Close">
+                    <Button.Background>
+                        <VisualBrush>
+                            <VisualBrush.Visual>
+                                <Image Source="/Images/Graphismes/Button_Close.png" Stretch="Uniform" />
+                            </VisualBrush.Visual>
+                        </VisualBrush>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>

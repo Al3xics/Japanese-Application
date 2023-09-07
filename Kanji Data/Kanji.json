@@ -1,0 +1,982 @@
+[
+ {
+  "ImageName": "a_droite.jpg",
+  "Hiragana": "みぎ \/ ゆう",
+  "Pronunciation": "migi \/ yuu",
+  "Translation": "à droite",
+  "NumberOfStrokes": 5
+ },
+ {
+  "ImageName": "a_gauche.jpg",
+  "Hiragana": "ひだり \/ さ",
+  "Pronunciation": "hidari \/ sa",
+  "Translation": "à gauche",
+  "NumberOfStrokes": 5
+ },
+ {
+  "ImageName": "a_l_arriere_(d_un_endroit).jpg",
+  "Hiragana": "おく",
+  "Pronunciation": "oku",
+  "Translation": "à l'arriere (d'un endroit)",
+  "NumberOfStrokes": 12
+ },
+ {
+  "ImageName": "acheter.jpg",
+  "Hiragana": "か(う) \/ ばい",
+  "Pronunciation": "ka(u) \/ bai",
+  "Translation": "acheter",
+  "NumberOfStrokes": 12
+ },
+ {
+  "ImageName": "alcool.jpg",
+  "Hiragana": "さけ \/ しゅう",
+  "Pronunciation": "sake \/ shuu",
+  "Translation": "alcool",
+  "NumberOfStrokes": 10
+ },
+ {
+  "ImageName": "aller.jpg",
+  "Hiragana": "い(く)",
+  "Pronunciation": "i(ku)",
+  "Translation": "aller",
+  "NumberOfStrokes": 6
+ },
+ {
+  "ImageName": "ami.jpg",
+  "Hiragana": "とも",
+  "Pronunciation": "tomo",
+  "Translation": "ami",
+  "NumberOfStrokes": 4
+ },
+ {
+  "ImageName": "anglais.jpg",
+  "Hiragana": "えい",
+  "Pronunciation": "ei",
+  "Translation": "anglais (adjectif)",
+  "NumberOfStrokes": 8
+ },
+ {
+  "ImageName": "annee.jpg",
+  "Hiragana": "ねん \/ とし",
+  "Pronunciation": "nen \/ toshi",
+  "Translation": "année",
+  "NumberOfStrokes": 6
+ },
+ {
+  "ImageName": "arbre.jpg",
+  "Hiragana": "もく \/ き",
+  "Pronunciation": "moku \/ ki",
+  "Translation": "arbre",
+  "NumberOfStrokes": 4
+ },
+ {
+  "ImageName": "arriere_derriere_plus_tard.jpg",
+  "Hiragana": "うし(ろ) \/ あと \/ ご \/ こう-",
+  "Pronunciation": "ushi(ro) \/ ato \/ go \/ kou-",
+  "Translation": "arrière \/ derrière \/ plus tard",
+  "NumberOfStrokes": 9
+ },
+ {
+  "ImageName": "attendre.jpg",
+  "Hiragana": "たい \/ ま(つ)",
+  "Pronunciation": "tai \/ ma(tsu)",
+  "Translation": "attendre",
+  "NumberOfStrokes": 9
+ },
+ {
+  "ImageName": "automne.jpg",
+  "Hiragana": "あき \/ しゅう",
+  "Pronunciation": "aki \/ shuu",
+  "Translation": "automne",
+  "NumberOfStrokes": 9
+ },
+ {
+  "ImageName": "bon_bonne.jpg",
+  "Hiragana": "すき \/ こう",
+  "Pronunciation": "suki \/ kou",
+  "Translation": "bon \/ bonne",
+  "NumberOfStrokes": 6
+ },
+ {
+  "ImageName": "bouche.jpg",
+  "Hiragana": "くち \/ こう \/ く",
+  "Pronunciation": "kuchi \/ kou \/ ku",
+  "Translation": "bouche",
+  "NumberOfStrokes": 3
+ },
+ {
+  "ImageName": "bouger_mouvement.jpg",
+  "Hiragana": "どう \/ うご(く)",
+  "Pronunciation": "dou \/ ugo(ku)",
+  "Translation": "bouger \/mouvement",
+  "NumberOfStrokes": 11
+ },
+ {
+  "ImageName": "cent.jpg",
+  "Hiragana": "ひゃく",
+  "Pronunciation": "hyaku",
+  "Translation": "cent",
+  "NumberOfStrokes": 6
+ },
+ {
+  "ImageName": "chanson.jpg",
+  "Hiragana": "うた \/ か",
+  "Pronunciation": "uta \/ ka",
+  "Translation": "chanson",
+  "NumberOfStrokes": 14
+ },
+ {
+  "ImageName": "chien.jpg",
+  "Hiragana": "いぬ \/ けん",
+  "Pronunciation": "inu \/ ken",
+  "Translation": "chien",
+  "NumberOfStrokes": 4
+ },
+ {
+  "ImageName": "chine.jpg",
+  "Hiragana": "かん",
+  "Pronunciation": "kan",
+  "Translation": "chine",
+  "NumberOfStrokes": 13
+ },
+ {
+  "ImageName": "chose_affaire.jpg",
+  "Hiragana": "こと \/ ごと \/ じ",
+  "Pronunciation": "koto \/ goto \/ ji",
+  "Translation": "chose \/ affaire",
+  "NumberOfStrokes": 8
+ },
+ {
+  "ImageName": "ciel_air_vide.jpg",
+  "Hiragana": "そら \/ くう \/ から",
+  "Pronunciation": "sora \/ kuu \/ kara",
+  "Translation": "ciel \/ air \/ vide",
+  "NumberOfStrokes": 8
+ },
+ {
+  "ImageName": "cinq.jpg",
+  "Hiragana": "ご",
+  "Pronunciation": "go",
+  "Translation": "cinq",
+  "NumberOfStrokes": 4
+ },
+ {
+  "ImageName": "compteur_pour_les_animaux_et_les_insectes.jpg",
+  "Hiragana": "ひき \/ びき \/ ぴき",
+  "Pronunciation": "hiki \/ biki \/ piki",
+  "Translation": "compteur pour les animaux et les insectes",
+  "NumberOfStrokes": 4
+ },
+ {
+  "ImageName": "compteur_pour_les_gros_meubles_et_l_electroniques.jpg",
+  "Hiragana": "だい \/ たい",
+  "Pronunciation": "dai \/ tai",
+  "Translation": "compteur pour les gros meubles et l'électroniques",
+  "NumberOfStrokes": 5
+ },
+ {
+  "ImageName": "compteur_pour_quelque_chose_de_plat.jpg",
+  "Hiragana": "まい",
+  "Pronunciation": "mai",
+  "Translation": "compteur pour quelque chose de plat",
+  "NumberOfStrokes": 8
+ },
+ {
+  "ImageName": "confort_musique.jpg",
+  "Hiragana": "たの(しい) \/ らく \/ がく",
+  "Pronunciation": "tano(shii) \/ raku \/ gaku",
+  "Translation": "confort \/ musique",
+  "NumberOfStrokes": 13
+ },
+ {
+  "ImageName": "copier_etre_photographier.jpg",
+  "Hiragana": "しゃ \/ うつ(る)",
+  "Pronunciation": "sha \/ utsu(ru)",
+  "Translation": "copier \/ être photographier",
+  "NumberOfStrokes": 5
+ },
+ {
+  "ImageName": "corps.jpg",
+  "Hiragana": "からだ \/ たい",
+  "Pronunciation": "karada \/ tai",
+  "Translation": "corps",
+  "NumberOfStrokes": 7
+ },
+ {
+  "ImageName": "dedans_interieur.jpg",
+  "Hiragana": "うち \/ ない",
+  "Pronunciation": "uchi \/ nai",
+  "Translation": "dedans \/ intérieur",
+  "NumberOfStrokes": 4
+ },
+ {
+  "ImageName": "degres_evenements.jpg",
+  "Hiragana": "ど \/ たび",
+  "Pronunciation": "do \/ tabi",
+  "Translation": "degrés \/ évenements",
+  "NumberOfStrokes": 9
+ },
+ {
+  "ImageName": "deux.jpg",
+  "Hiragana": "に",
+  "Pronunciation": "ni",
+  "Translation": "deux",
+  "NumberOfStrokes": 2
+ },
+ {
+  "ImageName": "devant_avant.jpg",
+  "Hiragana": "まえ \/ ぜん",
+  "Pronunciation": "mae \/ zen",
+  "Translation": "devant \/ avant",
+  "NumberOfStrokes": 9
+ },
+ {
+  "ImageName": "dire.jpg",
+  "Hiragana": "いう \/ こと \/ げん",
+  "Pronunciation": "iu \/ koto \/ gen",
+  "Translation": "dire",
+  "NumberOfStrokes": 7
+ },
+ {
+  "ImageName": "dix.jpg",
+  "Hiragana": "じゅう",
+  "Pronunciation": "juu",
+  "Translation": "dix",
+  "NumberOfStrokes": 2
+ },
+ {
+  "ImageName": "dix_mille.jpg",
+  "Hiragana": "まん",
+  "Pronunciation": "man",
+  "Translation": "dix mille",
+  "NumberOfStrokes": 3
+ },
+ {
+  "ImageName": "dormir_s_allonger.jpg",
+  "Hiragana": "しん \/ ね(る)",
+  "Pronunciation": "shin \/ ne(ru)",
+  "Translation": "dormir \/ s'allonger",
+  "NumberOfStrokes": 13
+ },
+ {
+  "ImageName": "eau.jpg",
+  "Hiragana": "すい \/ みず",
+  "Pronunciation": "sui \/ mizu",
+  "Translation": "eau",
+  "NumberOfStrokes": 4
+ },
+ {
+  "ImageName": "ecole.jpg",
+  "Hiragana": "こう",
+  "Pronunciation": "kou",
+  "Translation": "école",
+  "NumberOfStrokes": 10
+ },
+ {
+  "ImageName": "ecouter.jpg",
+  "Hiragana": "き(く)",
+  "Pronunciation": "ki(ku)",
+  "Translation": "écouter",
+  "NumberOfStrokes": 14
+ },
+ {
+  "ImageName": "ecrire.jpg",
+  "Hiragana": "か(く) \/ しょう",
+  "Pronunciation": "ka(ku) \/ shou",
+  "Translation": "écrire",
+  "NumberOfStrokes": 10
+ },
+ {
+  "ImageName": "effort.jpg",
+  "Hiragana": "べん",
+  "Pronunciation": "ben",
+  "Translation": "effort",
+  "NumberOfStrokes": 10
+ },
+ {
+  "ImageName": "en_bas_sous_en_dessous.jpg",
+  "Hiragana": "した \/ か \/ げ",
+  "Pronunciation": "shita \/ ka \/ ge",
+  "Translation": "en bas \/ sous \/ en dessous",
+  "NumberOfStrokes": 3
+ },
+ {
+  "ImageName": "en_haut_sur_au_dessus.jpg",
+  "Hiragana": "うえ \/ じょう",
+  "Pronunciation": "ue \/ jou",
+  "Translation": "en haut \/ sur \/ au dessus",
+  "NumberOfStrokes": 3
+ },
+ {
+  "ImageName": "en-dehors_exterieur.jpg",
+  "Hiragana": "そと \/ がい",
+  "Pronunciation": "soto \/ gai",
+  "Translation": "en-dehors \/ extérieur",
+  "NumberOfStrokes": 5
+ },
+ {
+  "ImageName": "enfant.jpg",
+  "Hiragana": "こ \/ し",
+  "Pronunciation": "ko \/ shi",
+  "Translation": "enfant",
+  "NumberOfStrokes": 3
+ },
+ {
+  "ImageName": "entrer.jpg",
+  "Hiragana": "はい(る) \/ い(り) \/ にゅう",
+  "Pronunciation": "hai(ru) \/ i(ri) \/ nyuu",
+  "Translation": "entrer",
+  "NumberOfStrokes": 2
+ },
+ {
+  "ImageName": "esprit_sentiment.jpg",
+  "Hiragana": "き",
+  "Pronunciation": "ki",
+  "Translation": "esprit \/ sentiment",
+  "NumberOfStrokes": 6
+ },
+ {
+  "ImageName": "est.jpg",
+  "Hiragana": "ひがし \/ とう",
+  "Pronunciation": "higashi \/ tou",
+  "Translation": "EST",
+  "NumberOfStrokes": 8
+ },
+ {
+  "ImageName": "ete.jpg",
+  "Hiragana": "なつ \/ か",
+  "Pronunciation": "natsu \/ ka",
+  "Translation": "été",
+  "NumberOfStrokes": 10
+ },
+ {
+  "ImageName": "etude_apprentissage.jpg",
+  "Hiragana": "がく \/ がっ-",
+  "Pronunciation": "gaku \/ ga-",
+  "Translation": "étude \/ apprentissage",
+  "NumberOfStrokes": 8
+ },
+ {
+  "ImageName": "femme.jpg",
+  "Hiragana": "おんな \/ じょ",
+  "Pronunciation": "onna \/ jou",
+  "Translation": "femme",
+  "NumberOfStrokes": 3
+ },
+ {
+  "ImageName": "feu.jpg",
+  "Hiragana": "か \/ ひ",
+  "Pronunciation": "ka \/ hi",
+  "Translation": "feu",
+  "NumberOfStrokes": 4
+ },
+ {
+  "ImageName": "fleur.jpg",
+  "Hiragana": "はな \/ か",
+  "Pronunciation": "hana \/ ka",
+  "Translation": "fleur",
+  "NumberOfStrokes": 7
+ },
+ {
+  "ImageName": "fois_tourner.jpg",
+  "Hiragana": "かい \/ まわ(る)",
+  "Pronunciation": "kai \/ mawa(ru)",
+  "Translation": "fois \/ tourner",
+  "NumberOfStrokes": 6
+ },
+ {
+  "ImageName": "fort.jpg",
+  "Hiragana": "きょう \/ つよ(い)",
+  "Pronunciation": "kyou \/ tsuyo(i)",
+  "Translation": "fort",
+  "NumberOfStrokes": 11
+ },
+ {
+  "ImageName": "grand.jpg",
+  "Hiragana": "-だい \/ おお(きい)",
+  "Pronunciation": "-dai \/ oo(kii)",
+  "Translation": "grand",
+  "NumberOfStrokes": 3
+ },
+ {
+  "ImageName": "grand_frere.jpg",
+  "Hiragana": "あに \/ にい \/ きょう",
+  "Pronunciation": "ani \/ nii \/ kyou",
+  "Translation": "grand frère",
+  "NumberOfStrokes": 5
+ },
+ {
+  "ImageName": "grande_soeur.jpg",
+  "Hiragana": "あね \/ ねえ \/ し",
+  "Pronunciation": "ane \/ nee \/ shi",
+  "Translation": "grande soeur",
+  "NumberOfStrokes": 8
+ },
+ {
+  "ImageName": "heure.jpg",
+  "Hiragana": "じ",
+  "Pronunciation": "ji",
+  "Translation": "heure",
+  "NumberOfStrokes": 10
+ },
+ {
+  "ImageName": "hiver.jpg",
+  "Hiragana": "ふゆ \/ とう",
+  "Pronunciation": "fuyu \/ tou",
+  "Translation": "hiver",
+  "NumberOfStrokes": 5
+ },
+ {
+  "ImageName": "homme.jpg",
+  "Hiragana": "おとこ \/ だん",
+  "Pronunciation": "otoko \/ dan",
+  "Translation": "homme",
+  "NumberOfStrokes": 7
+ },
+ {
+  "ImageName": "huit.jpg",
+  "Hiragana": "はち",
+  "Pronunciation": "hachi",
+  "Translation": "huit",
+  "NumberOfStrokes": 2
+ },
+ {
+  "ImageName": "il.jpg",
+  "Hiragana": "かれ \/ かの",
+  "Pronunciation": "kare \/ kano",
+  "Translation": "il",
+  "NumberOfStrokes": 8
+ },
+ {
+  "ImageName": "image_trait_de_pinceau.jpg",
+  "Hiragana": "が \/ かく",
+  "Pronunciation": "ga \/ kaku",
+  "Translation": "image \/ trait de pinceau",
+  "NumberOfStrokes": 8
+ },
+ {
+  "ImageName": "institution.jpg",
+  "Hiragana": "いん",
+  "Pronunciation": "in",
+  "Translation": "institution",
+  "NumberOfStrokes": 10
+ },
+ {
+  "ImageName": "je.jpg",
+  "Hiragana": "わたし",
+  "Pronunciation": "watashi",
+  "Translation": "je",
+  "NumberOfStrokes": 7
+ },
+ {
+  "ImageName": "jour_soleil.jpg",
+  "Hiragana": "に",
+  "Pronunciation": "ni",
+  "Translation": "jour \/ soleil",
+  "NumberOfStrokes": 4
+ },
+ {
+  "ImageName": "langue.jpg",
+  "Hiragana": "ご",
+  "Pronunciation": "go",
+  "Translation": "langue",
+  "NumberOfStrokes": 14
+ },
+ {
+  "ImageName": "lettre_caractere.jpg",
+  "Hiragana": "じ",
+  "Pronunciation": "ji",
+  "Translation": "lettre \/ caractère",
+  "NumberOfStrokes": 6
+ },
+ {
+  "ImageName": "lire.jpg",
+  "Hiragana": "よ(む) \/ どく",
+  "Pronunciation": "yo(mu) \/ doku",
+  "Translation": "lire",
+  "NumberOfStrokes": 14
+ },
+ {
+  "ImageName": "livre_base.jpg",
+  "Hiragana": "ほん",
+  "Pronunciation": "hon",
+  "Translation": "livre \/ base",
+  "NumberOfStrokes": 5
+ },
+ {
+  "ImageName": "lune_mois.jpg",
+  "Hiragana": "-げつ \/ がつ \/ つき",
+  "Pronunciation": "-getsu \/ gatsu \/ tsuki",
+  "Translation": "lune \/ mois",
+  "NumberOfStrokes": 4
+ },
+ {
+  "ImageName": "main.jpg",
+  "Hiragana": "て \/ じゅう",
+  "Pronunciation": "te \/ juu",
+  "Translation": "main",
+  "NumberOfStrokes": 4
+ },
+ {
+  "ImageName": "maintenant.jpg",
+  "Hiragana": "こん \/ こ \/ いま",
+  "Pronunciation": "kon \/ ko \/ ima",
+  "Translation": "maintenant",
+  "NumberOfStrokes": 4
+ },
+ {
+  "ImageName": "maladie.jpg",
+  "Hiragana": "びょう",
+  "Pronunciation": "byou",
+  "Translation": "maladie",
+  "NumberOfStrokes": 10
+ },
+ {
+  "ImageName": "manger.jpg",
+  "Hiragana": "た(べる)",
+  "Pronunciation": "ta(beru)",
+  "Translation": "manger",
+  "NumberOfStrokes": 9
+ },
+ {
+  "ImageName": "matin.jpg",
+  "Hiragana": "あさ \/ ちょう",
+  "Pronunciation": "asa \/ chou",
+  "Translation": "matin",
+  "NumberOfStrokes": 12
+ },
+ {
+  "ImageName": "medecin.jpg",
+  "Hiragana": "い",
+  "Pronunciation": "i",
+  "Translation": "médecin",
+  "NumberOfStrokes": 7
+ },
+ {
+  "ImageName": "medicament.jpg",
+  "Hiragana": "くすり \/ やく",
+  "Pronunciation": "kusuri \/ yaku",
+  "Translation": "médicament",
+  "NumberOfStrokes": 16
+ },
+ {
+  "ImageName": "mere.jpg",
+  "Hiragana": "はは \/ か \/ ぼ",
+  "Pronunciation": "haha \/ ka \/ bo",
+  "Translation": "mère",
+  "NumberOfStrokes": 5
+ },
+ {
+  "ImageName": "midi.jpg",
+  "Hiragana": "ひる \/ ちゅう",
+  "Pronunciation": "hiru \/ chuu",
+  "Translation": "midi",
+  "NumberOfStrokes": 9
+ },
+ {
+  "ImageName": "milieu_dans.jpg",
+  "Hiragana": "ちゅう \/ なか",
+  "Pronunciation": "chuu \/ naka",
+  "Translation": "milieu \/ dans",
+  "NumberOfStrokes": 4
+ },
+ {
+  "ImageName": "mille.jpg",
+  "Hiragana": "せん",
+  "Pronunciation": "sen",
+  "Translation": "mille",
+  "NumberOfStrokes": 3
+ },
+ {
+  "ImageName": "monde_limite.jpg",
+  "Hiragana": "かい",
+  "Pronunciation": "kai",
+  "Translation": "monde \/ limite",
+  "NumberOfStrokes": 9
+ },
+ {
+  "ImageName": "monde_societe_generation.jpg",
+  "Hiragana": "せ \/ よ \/ せい",
+  "Pronunciation": "se \/ yo \/ sei",
+  "Translation": "monde \/ société \/ génération",
+  "NumberOfStrokes": 5
+ },
+ {
+  "ImageName": "montagne.jpg",
+  "Hiragana": "やま \/ さん",
+  "Pronunciation": "yama \/ san",
+  "Translation": "montagne",
+  "NumberOfStrokes": 3
+ },
+ {
+  "ImageName": "neuf.jpg",
+  "Hiragana": "きゅう \/ く",
+  "Pronunciation": "kyuu \/ ku",
+  "Translation": "neuf",
+  "NumberOfStrokes": 2
+ },
+ {
+  "ImageName": "nord.jpg",
+  "Hiragana": "きた \/ ほく \/ ぼく \/ ほ-",
+  "Pronunciation": "kita \/ hoku \/ boku \/ ho-",
+  "Translation": "NORD",
+  "NumberOfStrokes": 5
+ },
+ {
+  "ImageName": "nouveau.jpg",
+  "Hiragana": "しん \/ あたら(しい)",
+  "Pronunciation": "shin \/ atara(shii)",
+  "Translation": "nouveau",
+  "NumberOfStrokes": 13
+ },
+ {
+  "ImageName": "nuit.jpg",
+  "Hiragana": "よる \/ よ \/ や",
+  "Pronunciation": "yoru \/ yo \/ ya",
+  "Translation": "nuit",
+  "NumberOfStrokes": 8
+ },
+ {
+  "ImageName": "ocean_mer.jpg",
+  "Hiragana": "うみ \/ かい",
+  "Pronunciation": "umi \/ kai",
+  "Translation": "océan \/ mer",
+  "NumberOfStrokes": 9
+ },
+ {
+  "ImageName": "oeil.jpg",
+  "Hiragana": "め \/ もく",
+  "Pronunciation": "me \/ moku",
+  "Translation": "oeil",
+  "NumberOfStrokes": 5
+ },
+ {
+  "ImageName": "or_argent.jpg",
+  "Hiragana": "きん \/ かね",
+  "Pronunciation": "kin \/ kane",
+  "Translation": "or \/ argent",
+  "NumberOfStrokes": 8
+ },
+ {
+  "ImageName": "oreille.jpg",
+  "Hiragana": "みみ",
+  "Pronunciation": "mimi",
+  "Translation": "oreille",
+  "NumberOfStrokes": 6
+ },
+ {
+  "ImageName": "ouest.jpg",
+  "Hiragana": "にし \/ さい \/ ざい \/ せい",
+  "Pronunciation": "nishi \/ sai \/ zai \/ sei",
+  "Translation": "OUEST",
+  "NumberOfStrokes": 6
+ },
+ {
+  "ImageName": "papier.jpg",
+  "Hiragana": "かみ",
+  "Pronunciation": "kami",
+  "Translation": "papier",
+  "NumberOfStrokes": 10
+ },
+ {
+  "ImageName": "paradis_ciel.jpg",
+  "Hiragana": "てん",
+  "Pronunciation": "ten",
+  "Translation": "paradis \/ ciel",
+  "NumberOfStrokes": 4
+ },
+ {
+  "ImageName": "parent_proche.jpg",
+  "Hiragana": "おや \/ しん",
+  "Pronunciation": "oya \/ shin",
+  "Translation": "parent \/ proche",
+  "NumberOfStrokes": 16
+ },
+ {
+  "ImageName": "parler.jpg",
+  "Hiragana": "はな(す) \/ わ",
+  "Pronunciation": "hana(su) \/ wa",
+  "Translation": "parler",
+  "NumberOfStrokes": 13
+ },
+ {
+  "ImageName": "pays.jpg",
+  "Hiragana": "くに \/ こく \/ ごく",
+  "Pronunciation": "kuni \/ koku \/ goku",
+  "Translation": "pays",
+  "NumberOfStrokes": 8
+ },
+ {
+  "ImageName": "pere.jpg",
+  "Hiragana": "ちち \/ とう \/ ふ",
+  "Pronunciation": "chichi \/ tou \/ fu",
+  "Translation": "père",
+  "NumberOfStrokes": 4
+ },
+ {
+  "ImageName": "personne.jpg",
+  "Hiragana": "じん \/ ひと",
+  "Pronunciation": "jin \/ hito",
+  "Translation": "personne",
+  "NumberOfStrokes": 2
+ },
+ {
+  "ImageName": "petit.jpg",
+  "Hiragana": "しょう \/ ちい(さい)",
+  "Pronunciation": "shou \/ chii(sai)",
+  "Translation": "petit",
+  "NumberOfStrokes": 3
+ },
+ {
+  "ImageName": "petit_frere.jpg",
+  "Hiragana": "おとうと \/ だい",
+  "Pronunciation": "otouto \/ dai",
+  "Translation": "petit frère",
+  "NumberOfStrokes": 7
+ },
+ {
+  "ImageName": "petite_soeur.jpg",
+  "Hiragana": "いもうと \/ まい",
+  "Pronunciation": "imouto \/ mai",
+  "Translation": "petite soeur",
+  "NumberOfStrokes": 8
+ },
+ {
+  "ImageName": "pied.jpg",
+  "Hiragana": "あし \/ そく",
+  "Pronunciation": "ashi \/ soku",
+  "Translation": "pied",
+  "NumberOfStrokes": 7
+ },
+ {
+  "ImageName": "pluie.jpg",
+  "Hiragana": "あめ \/ う",
+  "Pronunciation": "ame \/ u",
+  "Translation": "pluie",
+  "NumberOfStrokes": 8
+ },
+ {
+  "ImageName": "porter_transporter_chance.jpg",
+  "Hiragana": "うん \/ はこ(ぶ)",
+  "Pronunciation": "un \/ hakobu",
+  "Translation": "porter \/ transporter \/ chance",
+  "NumberOfStrokes": 12
+ },
+ {
+  "ImageName": "precedent.jpg",
+  "Hiragana": "せん \/ さき",
+  "Pronunciation": "sen \/ saki",
+  "Translation": "précédent",
+  "NumberOfStrokes": 6
+ },
+ {
+  "ImageName": "printemps.jpg",
+  "Hiragana": "はる \/ しゅん",
+  "Pronunciation": "haru \/ shun",
+  "Translation": "printemps",
+  "NumberOfStrokes": 9
+ },
+ {
+  "ImageName": "quatre.jpg",
+  "Hiragana": "し \/ よん",
+  "Pronunciation": "shi \/ yon",
+  "Translation": "quatre",
+  "NumberOfStrokes": 5
+ },
+ {
+  "ImageName": "que_quel_quelle.jpg",
+  "Hiragana": "なに \/ なん",
+  "Pronunciation": "nani \/ nan",
+  "Translation": "que \/ quel \/ quelle",
+  "NumberOfStrokes": 7
+ },
+ {
+  "ImageName": "quelqu_un_une_personne.jpg",
+  "Hiragana": "しゃ \/ もの",
+  "Pronunciation": "sha \/ mono",
+  "Translation": "quelqu'un \/ une personne",
+  "NumberOfStrokes": 8
+ },
+ {
+  "ImageName": "reflet_projection.jpg",
+  "Hiragana": "えい \/ うつ(る)",
+  "Pronunciation": "ei \/ utsu(ru)",
+  "Translation": "reflet \/ projection",
+  "NumberOfStrokes": 9
+ },
+ {
+  "ImageName": "riviere_fleuve.jpg",
+  "Hiragana": "かわ \/ がわ",
+  "Pronunciation": "kawa \/ gawa",
+  "Translation": "rivière \/ fleuve",
+  "NumberOfStrokes": 3
+ },
+ {
+  "ImageName": "route_chemin.jpg",
+  "Hiragana": "みち \/ どう",
+  "Pronunciation": "michi \/ dou",
+  "Translation": "route \/ chemin",
+  "NumberOfStrokes": 12
+ },
+ {
+  "ImageName": "se_reposer.jpg",
+  "Hiragana": "やす(む) \/ きゅう",
+  "Pronunciation": "yasu(mu) \/ kyuu",
+  "Translation": "se reposer",
+  "NumberOfStrokes": 6
+ },
+ {
+  "ImageName": "se_reveiller_se_lever.jpg",
+  "Hiragana": "き \/ お(きる) \/ おこ(す)",
+  "Pronunciation": "ki \/ o(kiru) \/ oko(su)",
+  "Translation": "se réveiller \/ se lever",
+  "NumberOfStrokes": 10
+ },
+ {
+  "ImageName": "semaine.jpg",
+  "Hiragana": "しゅう",
+  "Pronunciation": "shuu",
+  "Translation": "semaine",
+  "NumberOfStrokes": 11
+ },
+ {
+  "ImageName": "sept.jpg",
+  "Hiragana": "しち \/ なな",
+  "Pronunciation": "shichi \/ nana",
+  "Translation": "sept",
+  "NumberOfStrokes": 2
+ },
+ {
+  "ImageName": "servir.jpg",
+  "Hiragana": "し",
+  "Pronunciation": "shi",
+  "Translation": "servir",
+  "NumberOfStrokes": 5
+ },
+ {
+  "ImageName": "six.jpg",
+  "Hiragana": "ろく",
+  "Pronunciation": "roku",
+  "Translation": "six",
+  "NumberOfStrokes": 4
+ },
+ {
+  "ImageName": "soir.jpg",
+  "Hiragana": "ゆう",
+  "Pronunciation": "yuu",
+  "Translation": "soir",
+  "NumberOfStrokes": 3
+ },
+ {
+  "ImageName": "sol_terre.jpg",
+  "Hiragana": "ど \/ つち",
+  "Pronunciation": "do \/ tsuchi",
+  "Translation": "sol \/ terre",
+  "NumberOfStrokes": 3
+ },
+ {
+  "ImageName": "son.jpg",
+  "Hiragana": "おと \/ おん",
+  "Pronunciation": "oto \/ on",
+  "Translation": "son",
+  "NumberOfStrokes": 9
+ },
+ {
+  "ImageName": "sortir.jpg",
+  "Hiragana": "で(る) \/ しゅつ \/ だ(す)",
+  "Pronunciation": "de(ru) \/ shutsu \/ da(su)",
+  "Translation": "sortir",
+  "NumberOfStrokes": 5
+ },
+ {
+  "ImageName": "sud.jpg",
+  "Hiragana": "みなみ \/ なん",
+  "Pronunciation": "minami \/ nan",
+  "Translation": "SUD",
+  "NumberOfStrokes": 9
+ },
+ {
+  "ImageName": "tombe_de_la_nuit_nuit.jpg",
+  "Hiragana": "ばん",
+  "Pronunciation": "ban",
+  "Translation": "tombé de la nuit \/ nuit",
+  "NumberOfStrokes": 12
+ },
+ {
+  "ImageName": "tout_tous_toute(s).jpg",
+  "Hiragana": "まい",
+  "Pronunciation": "mai",
+  "Translation": "tout \/ tous \/ toute(s)",
+  "NumberOfStrokes": 6
+ },
+ {
+  "ImageName": "trois.jpg",
+  "Hiragana": "さん",
+  "Pronunciation": "san",
+  "Translation": "trois",
+  "NumberOfStrokes": 3
+ },
+ {
+  "ImageName": "un.jpg",
+  "Hiragana": "いち",
+  "Pronunciation": "ichi",
+  "Translation": "un",
+  "NumberOfStrokes": 1
+ },
+ {
+  "ImageName": "venir.jpg",
+  "Hiragana": "く(る)",
+  "Pronunciation": "ku(ru)",
+  "Translation": "venir",
+  "NumberOfStrokes": 7
+ },
+ {
+  "ImageName": "vie.jpg",
+  "Hiragana": "せい",
+  "Pronunciation": "sei",
+  "Translation": "vie",
+  "NumberOfStrokes": 5
+ },
+ {
+  "ImageName": "vieux.jpg",
+  "Hiragana": "こ \/ ふる(い)",
+  "Pronunciation": "ko \/ furu(i)",
+  "Translation": "vieux",
+  "NumberOfStrokes": 5
+ },
+ {
+  "ImageName": "vivre_habiter.jpg",
+  "Hiragana": "すむ \/ じゅう",
+  "Pronunciation": "sumu \/ juu",
+  "Translation": "vivre \/ habiter",
+  "NumberOfStrokes": 7
+ },
+ {
+  "ImageName": "voir_regarder.jpg",
+  "Hiragana": "み(る)",
+  "Pronunciation": "mi(ru)",
+  "Translation": "voir \/ regarder",
+  "NumberOfStrokes": 7
+ },
+ {
+  "ImageName": "voyage_voyager.jpg",
+  "Hiragana": "りょ \/ たび",
+  "Pronunciation": "ryo \/ tabi",
+  "Translation": "voyage \/ voyager",
+  "NumberOfStrokes": 10
+ },
+ {
+  "ImageName": "vrai_realite.jpg",
+  "Hiragana": "しん \/ ま",
+  "Pronunciation": "shin \/ ma",
+  "Translation": "vrai \/ réalité",
+  "NumberOfStrokes": 10
+ },
+ {
+  "ImageName": "yen.jpg",
+  "Hiragana": "えん",
+  "Pronunciation": "en",
+  "Translation": "yen",
+  "NumberOfStrokes": 4
+ }
+]
