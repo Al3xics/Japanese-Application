@@ -52,6 +52,7 @@ namespace Japanese.Model
             try
             {
                 string destinationFolder = @"./Images/Kanji/";
+                bool duplicateMessageShown = false;
 
                 foreach (string sourcePath in sourcePaths)
                 {
@@ -60,10 +61,9 @@ namespace Japanese.Model
                         string fileName = Path.GetFileName(sourcePath);
                         string destinationPath = Path.Combine(destinationFolder, fileName);
 
-                        if (File.Exists(destinationPath))
+                        if (File.Exists(destinationPath) && !duplicateMessageShown)
                         {
-                            MessageBox.Show($"An image with the name '{fileName}' already exists in the Kanji folder.");
-                            continue;
+                            duplicateMessageShown = true;
                         }
 
                         File.Copy(sourcePath, destinationPath, true);
@@ -72,6 +72,11 @@ namespace Japanese.Model
                     {
                         MessageBox.Show($"The source file '{sourcePath}' does not exist.");
                     }
+                }
+
+                if (duplicateMessageShown)
+                {
+                    MessageBox.Show("At least one image already exists in the Kanji folder. ");
                 }
             }
             catch (Exception ex)
