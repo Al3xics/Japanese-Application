@@ -55,6 +55,16 @@ namespace Japanese.ViewModel
         public RelayCommand DeleteCommand => new(execute => DeleteAction(execute));
 
 
+        /* -------------------- Constructor -------------------- */
+        /// <summary>
+        /// Initializes a new instance of the AddFolderPageViewModel class.
+        /// </summary>
+        public AddFolderPageViewModel()
+        {
+            _numberOfKanji = $"Total : {_kanjiList.Count}";
+        }
+
+
         /* -------------------- Properties -------------------- */
         /// <summary>
         /// An ObservableCollection of KanjiData objects that holds the list of kanji images in the selected folder.
@@ -65,6 +75,21 @@ namespace Japanese.ViewModel
         {
             get { return _kanjiList; }
             set { _kanjiList = value; }
+        }
+
+        /// <summary>
+        /// Total number of Kanji in the collection.
+        /// </summary>
+        private string _numberOfKanji;
+
+        public string NumberOfKanji
+        {
+            get { return _numberOfKanji; }
+            set
+            {
+                _numberOfKanji = value;
+                OnPropertyChanged();
+            }
         }
 
 
@@ -107,6 +132,7 @@ namespace Japanese.ViewModel
                         KanjiList.Add(new KanjiData { ImageName = imageName });
                     }
                 }
+                NumberOfKanji = $"Total : {_kanjiList.Count}";
             }
         }
 
@@ -346,6 +372,7 @@ namespace Japanese.ViewModel
                         KanjiList.Remove(kanjiData);
                     }
                 }
+                NumberOfKanji = $"Total : {_kanjiList.Count}";
             }
         }
 
@@ -361,6 +388,7 @@ namespace Japanese.ViewModel
                 {
                     KanjiList.Remove(selectedItem);
                 }
+                NumberOfKanji = $"Total : {_kanjiList.Count}";
             }
             else
             {

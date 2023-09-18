@@ -49,11 +49,20 @@
                 </Button.Background>
             </Button>
 
+            <!-- TextBlock Number of Kanji -->
+            <TextBlock Text="{Binding NumberOfKanji}" Canvas.Left="575" Canvas.Top="52" TextWrapping="Wrap" Height="26" Width="170" VerticalAlignment="Center" HorizontalAlignment="Left"
+                       FontWeight="Bold" FontSize="18" TextAlignment="Center"/>
+
             <!-- Kanji List View -->
             <ListView x:Name="KanjiListView" ItemsSource="{Binding KanjiList}" ItemContainerStyle="{StaticResource ListViewItemStyle}" Canvas.Left="105" Canvas.Top="96"
                       Width="766" Height="378" HorizontalAlignment="Left" VerticalAlignment="Top" BorderThickness="4,4,4,4" BorderBrush="#FF6F3400" Cursor="Arrow"
                       Foreground="Black" Background="#FFABA9A9" MinWidth="766" MinHeight="378" MaxWidth="766" MaxHeight="371" ScrollViewer.HorizontalScrollBarVisibility="Auto"
                       ScrollViewer.VerticalScrollBarVisibility="Auto">
+                <ListView.Resources>
+                    <Style TargetType="TextBlock">
+                        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+                    </Style>
+                </ListView.Resources>
                 <ListView.View>
                     <GridView>
                         <GridView.ColumnHeaderContainerStyle>

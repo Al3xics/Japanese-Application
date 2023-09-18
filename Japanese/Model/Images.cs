@@ -61,9 +61,10 @@ namespace Japanese.Model
                         string fileName = Path.GetFileName(sourcePath);
                         string destinationPath = Path.Combine(destinationFolder, fileName);
 
-                        if (File.Exists(destinationPath) && !duplicateMessageShown)
+                        if (File.Exists(destinationPath))
                         {
                             duplicateMessageShown = true;
+                            continue;
                         }
 
                         File.Copy(sourcePath, destinationPath, true);
