@@ -197,6 +197,17 @@ namespace Japanese.ViewModel
         }
 
         /// <summary>
+        /// Handles the drop of an image file onto the Image element.
+        /// Updates the selected file path and the displayed image.
+        /// </summary>
+        /// <param name="filePath">The file path of the dropped image.</param>
+        public void HandleImageDrop(string filePath)
+        {
+            selectedFilePath = filePath;
+            CurrentImage = new BitmapImage(new Uri(selectedFilePath));
+        }
+
+        /// <summary>
         /// Checks if the form data is valid before saving.
         /// </summary>
         /// <returns>True if the form data is valid, false otherwise.</returns>

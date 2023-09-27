@@ -51,7 +51,7 @@
             <!-- Image -->
             <Border CornerRadius="6" BorderThickness="6" Canvas.Left="120" Canvas.Top="130" BorderBrush="#FF6F3400">
                 <Grid Width="300" Height="300" Background="#FFF6F7F2">
-                    <Image Source="{Binding CurrentImage}"/>
+                    <Image Source="{Binding CurrentImage}" AllowDrop="True" Drop="Image_Drop"/>
                 </Grid>
             </Border>
 

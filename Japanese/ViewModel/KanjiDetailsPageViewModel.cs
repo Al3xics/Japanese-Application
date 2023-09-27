@@ -182,7 +182,8 @@ namespace Japanese.ViewModel
                             KanjiList.Remove(selectedItem);
                         }
                         JsonData.SaveDataToJson(kanjiJsonFilePath, kanjiList);
-                        NumberOfKanji = $"Total : {_kanjiList.Count}";
+                        ICollectionView collectionView = CollectionViewSource.GetDefaultView(KanjiList);
+                        NumberOfKanji = $"Total : {collectionView.Cast<KanjiData>().Count()}";
                     }
                 }
                 else
