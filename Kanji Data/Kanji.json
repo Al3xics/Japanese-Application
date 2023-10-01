@@ -600,6 +600,16 @@
     "ErrorMessage": ""
   },
   {
+    "ImageName": "frais_matiere.jpg",
+    "Hiragana": "りょう",
+    "Pronunciation": "ryou",
+    "Translation": "frais / matière",
+    "NumberOfStrokes": 10,
+    "FormattedNumberOfStrokes": "10",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
     "ImageName": "gare.jpg",
     "Hiragana": "えき",
     "Pronunciation": "eki",
@@ -776,6 +786,16 @@
     "Translation": "livre / base",
     "NumberOfStrokes": 5,
     "FormattedNumberOfStrokes": "5",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
+    "ImageName": "logique.jpg",
+    "Hiragana": "り",
+    "Pronunciation": "ri",
+    "Translation": "logique",
+    "NumberOfStrokes": 11,
+    "FormattedNumberOfStrokes": "11",
     "MissingElement": false,
     "ErrorMessage": ""
   },
@@ -1320,6 +1340,16 @@
     "ErrorMessage": ""
   },
   {
+    "ImageName": "soi_meme.jpg",
+    "Hiragana": "じ / し",
+    "Pronunciation": "ji / shi",
+    "Translation": "soi-même",
+    "NumberOfStrokes": 6,
+    "FormattedNumberOfStrokes": "6",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
     "ImageName": "soir.jpg",
     "Hiragana": "ゆう",
     "Pronunciation": "yuu",
@@ -1370,12 +1400,32 @@
     "ErrorMessage": ""
   },
   {
+    "ImageName": "the.jpg",
+    "Hiragana": "ちゃ / さ",
+    "Pronunciation": "cha / sa",
+    "Translation": "thé",
+    "NumberOfStrokes": 9,
+    "FormattedNumberOfStrokes": "9",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
     "ImageName": "tombe_de_la_nuit_nuit.jpg",
     "Hiragana": "ばん",
     "Pronunciation": "ban",
     "Translation": "tombé de la nuit / nuit",
     "NumberOfStrokes": 12,
     "FormattedNumberOfStrokes": "12",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
+    "ImageName": "tourner_changer.jpg",
+    "Hiragana": "てん",
+    "Pronunciation": "ten",
+    "Translation": "tourner / changer",
+    "NumberOfStrokes": 11,
+    "FormattedNumberOfStrokes": "11",
     "MissingElement": false,
     "ErrorMessage": ""
   },
