@@ -170,6 +170,16 @@
     "ErrorMessage": ""
   },
   {
+    "ImageName": "capitale.jpg",
+    "Hiragana": "きょう",
+    "Pronunciation": "kyou",
+    "Translation": "capitale",
+    "NumberOfStrokes": 8,
+    "FormattedNumberOfStrokes": "8",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
     "ImageName": "cent.jpg",
     "Hiragana": "ひゃく",
     "Pronunciation": "hyaku",
@@ -840,6 +850,16 @@
     "ErrorMessage": ""
   },
   {
+    "ImageName": "maison_professionnel.jpg",
+    "Hiragana": "いえ / か",
+    "Pronunciation": "ie / ka",
+    "Translation": "maison / professionnel",
+    "NumberOfStrokes": 10,
+    "FormattedNumberOfStrokes": "10",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
     "ImageName": "maladie.jpg",
     "Hiragana": "びょう",
     "Pronunciation": "byou",
@@ -1046,6 +1066,16 @@
     "Translation": "oreille",
     "NumberOfStrokes": 6,
     "FormattedNumberOfStrokes": "6",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
+    "ImageName": "origine_ancien.jpg",
+    "Hiragana": "げん / もと",
+    "Pronunciation": "gen / moto",
+    "Translation": "origine / ancien",
+    "NumberOfStrokes": 4,
+    "FormattedNumberOfStrokes": "4",
     "MissingElement": false,
     "ErrorMessage": ""
   },
@@ -1400,6 +1430,16 @@
     "ErrorMessage": ""
   },
   {
+    "ImageName": "tete_compteur_pour_les_gros_animaux.jpg",
+    "Hiragana": "あたま / ず / とう",
+    "Pronunciation": "atama / zu / tou",
+    "Translation": "tête / compteur pour les gros animaux",
+    "NumberOfStrokes": 16,
+    "FormattedNumberOfStrokes": "16",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
     "ImageName": "the.jpg",
     "Hiragana": "ちゃ / さ",
     "Pronunciation": "cha / sa",
@@ -1436,6 +1476,16 @@
     "Translation": "tout / tous / toute(s)",
     "NumberOfStrokes": 6,
     "FormattedNumberOfStrokes": "6",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
+    "ImageName": "tribu_groupe.jpg",
+    "Hiragana": "ぞく",
+    "Pronunciation": "zoku",
+    "Translation": "tribu / groupe",
+    "NumberOfStrokes": 11,
+    "FormattedNumberOfStrokes": "11",
     "MissingElement": false,
     "ErrorMessage": ""
   },
