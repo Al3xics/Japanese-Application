@@ -526,7 +526,7 @@ namespace Japanese.ViewModel
         /// <summary>
         /// Handles the selection of a ComboBox item for Kanji set.
         /// </summary>
-        private void HandleComboBoxItemSelection()
+        public void HandleComboBoxItemSelection()
         {
             if (SelectedComboBoxItem is ComboBoxItem selectedItem)
             {

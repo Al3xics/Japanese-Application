@@ -42,9 +42,9 @@
 
             <!-- Set of Kanji ComboBox -->
             <ComboBox x:Name="SetComboBox" SelectedItem="{Binding SelectedComboBoxItem}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Canvas.Left="815" Canvas.Top="84" Focusable="False">
-                <ComboBoxItem Content="Set of all Kanji" IsSelected="True"/>
+                <ComboBoxItem Content="Set of all Kanji"/>
                 <ComboBoxItem Content="Set of 10 Kanji"/>
-                <ComboBoxItem Content="Set of 20 Kanji"/>
+                <ComboBoxItem Content="Set of 20 Kanji" IsSelected="True"/>
                 <ComboBoxItem Content="Set of 30 Kanji"/>
                 <ComboBoxItem Content="Set of 40 Kanji"/>
                 <ComboBoxItem Content="Set of 50 Kanji"/>

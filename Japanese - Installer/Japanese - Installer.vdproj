@@ -15,13 +15,13 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_2DA1F02F46A342B5840DE3155A4CDA5F"
+        "MsmKey" = "8:_4F1AB42898C64A2AB09DA5CA43B44DED"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_4F1AB42898C64A2AB09DA5CA43B44DED"
+        "MsmKey" = "8:_B396F002999E45BCB57B4413C313C458"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -199,7 +199,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Japanese Application"
         "ProductCode" = "8:{566DA9F1-E452-409A-9D08-19AC3D9C5BE0}"
-        "PackageCode" = "8:{E4835061-1A16-4A9E-AD08-6A5DC4D0A6FB}"
+        "PackageCode" = "8:{94D96B52-8612-4A23-A31A-AE8DA469466A}"
         "UpgradeCode" = "8:{DB1578DC-987A-46A3-8A18-31C7B08D839D}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
@@ -319,7 +319,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_97F049CFD4484536B196D32E1012792E"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_3BA9EDD3F01A444E879C036162AC7B6C"
             {
             "Name" = "8:Japanese"
             "Arguments" = "8:"
@@ -327,13 +327,13 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_2DA1F02F46A342B5840DE3155A4CDA5F"
+            "Target" = "8:_B396F002999E45BCB57B4413C313C458"
             "Folder" = "8:_15CD32C6B6844857BE3BEDBBD02BE91F"
             "WorkingFolder" = "8:_7040363E076145279F4114652FBB5A3E"
             "Icon" = "8:_4F1AB42898C64A2AB09DA5CA43B44DED"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_9CD69DEC8B754BA4AF95923C079A84A8"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_E09F8E862DB04ADBB6202C05EFC2CB85"
             {
             "Name" = "8:Japanese"
             "Arguments" = "8:"
@@ -341,7 +341,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_2DA1F02F46A342B5840DE3155A4CDA5F"
+            "Target" = "8:_B396F002999E45BCB57B4413C313C458"
             "Folder" = "8:_247F1EE47B474038BAE8D9CEB38F27E5"
             "WorkingFolder" = "8:_7040363E076145279F4114652FBB5A3E"
             "Icon" = "8:_4F1AB42898C64A2AB09DA5CA43B44DED"
@@ -746,7 +746,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_2DA1F02F46A342B5840DE3155A4CDA5F"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_B396F002999E45BCB57B4413C313C458"
             {
             "SourcePath" = "8:..\\Japanese\\obj\\Debug\\net6.0-windows\\apphost.exe"
             "TargetName" = "8:"

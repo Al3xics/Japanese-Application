@@ -11,9 +11,13 @@
 
   <ItemGroup>
     <Compile Remove="Images\Kanji\**" />
+    <Compile Remove="Publish\**" />
     <EmbeddedResource Remove="Images\Kanji\**" />
+    <EmbeddedResource Remove="Publish\**" />
     <None Remove="Images\Kanji\**" />
+    <None Remove="Publish\**" />
     <Page Remove="Images\Kanji\**" />
+    <Page Remove="Publish\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -738,10 +742,6 @@
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Publish\" />
   </ItemGroup>
 
   <ItemGroup>

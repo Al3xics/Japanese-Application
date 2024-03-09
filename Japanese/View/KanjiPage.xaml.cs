@@ -17,7 +17,7 @@ namespace Japanese.View
 
             if (DataContext is KanjiPageViewModel viewModel)
             {
-                viewModel.InitializeNextStack();
+                viewModel.HandleComboBoxItemSelection();
             }
         }
     }
