@@ -130,6 +130,16 @@
     "ErrorMessage": ""
   },
   {
+    "ImageName": "blanc.jpg",
+    "Hiragana": "しろ / はく",
+    "Pronunciation": "shiro / haku",
+    "Translation": "blanc(he)",
+    "NumberOfStrokes": 5,
+    "FormattedNumberOfStrokes": "5",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
     "ImageName": "boire.jpg",
     "Hiragana": "の(む) / いん",
     "Pronunciation": "no(mu) / in",
@@ -540,6 +550,16 @@
     "ErrorMessage": ""
   },
   {
+    "ImageName": "et_demi.jpg",
+    "Hiragana": "はん",
+    "Pronunciation": "han",
+    "Translation": "et demi",
+    "NumberOfStrokes": 5,
+    "FormattedNumberOfStrokes": "5",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
     "ImageName": "ete.jpg",
     "Hiragana": "なつ / か",
     "Pronunciation": "natsu / ka",
@@ -740,6 +760,16 @@
     "ErrorMessage": ""
   },
   {
+    "ImageName": "intervalle_entre.jpg",
+    "Hiragana": "かん / あいだ",
+    "Pronunciation": "kan / aida",
+    "Translation": "intervalle / entre",
+    "NumberOfStrokes": 12,
+    "FormattedNumberOfStrokes": "12",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
     "ImageName": "je.jpg",
     "Hiragana": "わたし",
     "Pronunciation": "watashi",
@@ -930,6 +960,16 @@
     "ErrorMessage": ""
   },
   {
+    "ImageName": "midi_1.jpg",
+    "Hiragana": "ご",
+    "Pronunciation": "go",
+    "Translation": "midi",
+    "NumberOfStrokes": 4,
+    "FormattedNumberOfStrokes": "4",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
     "ImageName": "milieu_dans.jpg",
     "Hiragana": "ちゅう / なか",
     "Pronunciation": "chuu / naka",
@@ -946,6 +986,16 @@
     "Translation": "mille",
     "NumberOfStrokes": 3,
     "FormattedNumberOfStrokes": "3",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
+    "ImageName": "minute_comprendre.jpg",
+    "Hiragana": "ふん / ぶん / ぷん / わ(かる)",
+    "Pronunciation": "fun / bun / pun / wa(karu)",
+    "Translation": "minute / comprendre",
+    "NumberOfStrokes": 4,
+    "FormattedNumberOfStrokes": "4",
     "MissingElement": false,
     "ErrorMessage": ""
   },
