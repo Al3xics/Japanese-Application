@@ -140,6 +140,16 @@
     "ErrorMessage": ""
   },
   {
+    "ImageName": "bleu.jpg",
+    "Hiragana": "あお / せい",
+    "Pronunciation": "ao / sei",
+    "Translation": "bleu",
+    "NumberOfStrokes": 8,
+    "FormattedNumberOfStrokes": "8",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
     "ImageName": "boire.jpg",
     "Hiragana": "の(む) / いん",
     "Pronunciation": "no(mu) / in",
@@ -316,6 +326,16 @@
     "Translation": "corps",
     "NumberOfStrokes": 7,
     "FormattedNumberOfStrokes": "7",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
+    "ImageName": "couleur.jpg",
+    "Hiragana": "いろ / しょく",
+    "Pronunciation": "iro / shoku",
+    "Translation": "couleur",
+    "NumberOfStrokes": 6,
+    "FormattedNumberOfStrokes": "6",
     "MissingElement": false,
     "ErrorMessage": ""
   },
@@ -770,6 +790,16 @@
     "ErrorMessage": ""
   },
   {
+    "ImageName": "jaune.jpg",
+    "Hiragana": "き",
+    "Pronunciation": "ki",
+    "Translation": "jaune",
+    "NumberOfStrokes": 11,
+    "FormattedNumberOfStrokes": "11",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
     "ImageName": "je.jpg",
     "Hiragana": "わたし",
     "Pronunciation": "watashi",
@@ -1036,6 +1066,16 @@
     "Translation": "neuf",
     "NumberOfStrokes": 2,
     "FormattedNumberOfStrokes": "2",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
+    "ImageName": "noir.jpg",
+    "Hiragana": "くろ / こく",
+    "Pronunciation": "kuro / koku",
+    "Translation": "noir",
+    "NumberOfStrokes": 11,
+    "FormattedNumberOfStrokes": "11",
     "MissingElement": false,
     "ErrorMessage": ""
   },
@@ -1346,6 +1386,16 @@
     "Translation": "rivière / fleuve",
     "NumberOfStrokes": 3,
     "FormattedNumberOfStrokes": "3",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
+    "ImageName": "rouge.jpg",
+    "Hiragana": "あか",
+    "Pronunciation": "aka",
+    "Translation": "rouge",
+    "NumberOfStrokes": 7,
+    "FormattedNumberOfStrokes": "7",
     "MissingElement": false,
     "ErrorMessage": ""
   },
