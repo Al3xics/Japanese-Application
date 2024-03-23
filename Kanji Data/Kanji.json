@@ -590,12 +590,32 @@
     "ErrorMessage": ""
   },
   {
+    "ImageName": "etre_debout.jpg",
+    "Hiragana": "りつ / た(つ)",
+    "Pronunciation": "ritsu / ta(tsu)",
+    "Translation": "être debout",
+    "NumberOfStrokes": 5,
+    "FormattedNumberOfStrokes": "5",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
     "ImageName": "etude_apprentissage.jpg",
     "Hiragana": "がく / がっ-",
     "Pronunciation": "gaku / ga-",
     "Translation": "étude / apprentissage",
     "NumberOfStrokes": 8,
     "FormattedNumberOfStrokes": "8",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
+    "ImageName": "facon_de_faire_quelque_chose_direction.jpg",
+    "Hiragana": "ほう / かた",
+    "Pronunciation": "hou / kata",
+    "Translation": "façon de faire quelque chose / direction",
+    "NumberOfStrokes": 4,
+    "FormattedNumberOfStrokes": "4",
     "MissingElement": false,
     "ErrorMessage": ""
   },
@@ -826,6 +846,16 @@
     "Translation": "langue",
     "NumberOfStrokes": 14,
     "FormattedNumberOfStrokes": "14",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
+    "ImageName": "laver.jpg",
+    "Hiragana": "せん / あら(う)",
+    "Pronunciation": "sen / ara(u)",
+    "Translation": "laver",
+    "NumberOfStrokes": 9,
+    "FormattedNumberOfStrokes": "9",
     "MissingElement": false,
     "ErrorMessage": ""
   },
@@ -1302,7 +1332,7 @@
   {
     "ImageName": "porter_transporter_chance.jpg",
     "Hiragana": "うん / はこ(ぶ)",
-    "Pronunciation": "un / hakobu",
+    "Pronunciation": "un / hako(bu)",
     "Translation": "porter / transporter / chance",
     "NumberOfStrokes": 12,
     "FormattedNumberOfStrokes": "12",
@@ -1406,6 +1436,26 @@
     "Translation": "route / chemin",
     "NumberOfStrokes": 12,
     "FormattedNumberOfStrokes": "12",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
+    "ImageName": "s_asseoir.jpg",
+    "Hiragana": "ざ / すわ(る)",
+    "Pronunciation": "za / suwa(ru)",
+    "Translation": "s'asseoir",
+    "NumberOfStrokes": 10,
+    "FormattedNumberOfStrokes": "10",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
+    "ImageName": "savoir_sagesse.jpg",
+    "Hiragana": "し(る) / ち",
+    "Pronunciation": "shi(ru) / chi",
+    "Translation": "savoir / sagesse",
+    "NumberOfStrokes": 8,
+    "FormattedNumberOfStrokes": "8",
     "MissingElement": false,
     "ErrorMessage": ""
   },

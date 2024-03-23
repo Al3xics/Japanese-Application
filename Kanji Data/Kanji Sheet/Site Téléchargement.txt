@@ -1,0 +1,11 @@
+Site ou j'ai téléchargé Hiragana et Katakana :
+
+	https://commons.wikimedia.org/w/index.php?search=
+
+
+
+Pour les Kanji :
+	- découper chaque Kanji (Largeur et Hauteur = 500px si possible) : https://www.iloveimg.com/fr/recadrer-image
+	- enlever le texte restant avec paint et recentrer l'image en la déplaçant si besoin
+	- vérifier dans les autres images que le nom soit différents (qu'une image avec le même nom n'existe pas)
+
