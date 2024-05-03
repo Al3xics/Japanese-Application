@@ -210,6 +210,16 @@
     "ErrorMessage": ""
   },
   {
+    "ImageName": "changer.jpg",
+    "Hiragana": "か",
+    "Pronunciation": "ka",
+    "Translation": "changer",
+    "NumberOfStrokes": 4,
+    "FormattedNumberOfStrokes": "4",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
     "ImageName": "chanson.jpg",
     "Hiragana": "うた / か",
     "Pronunciation": "uta / ka",
@@ -530,6 +540,16 @@
     "ErrorMessage": ""
   },
   {
+    "ImageName": "enseigner.jpg",
+    "Hiragana": "おし(える) / きょう",
+    "Pronunciation": "oshi(eru) / kyou",
+    "Translation": "enseigner",
+    "NumberOfStrokes": 11,
+    "FormattedNumberOfStrokes": "11",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
     "ImageName": "entreprise_sanctuaire.jpg",
     "Hiragana": "しゃ",
     "Pronunciation": "sha",
@@ -766,6 +786,16 @@
     "Translation": "huit",
     "NumberOfStrokes": 2,
     "FormattedNumberOfStrokes": "2",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
+    "ImageName": "idee_esprit.jpg",
+    "Hiragana": "い",
+    "Pronunciation": "i",
+    "Translation": "idée / esprit",
+    "NumberOfStrokes": 13,
+    "FormattedNumberOfStrokes": "13",
     "MissingElement": false,
     "ErrorMessage": ""
   },
@@ -1260,6 +1290,16 @@
     "ErrorMessage": ""
   },
   {
+    "ImageName": "penser.jpg",
+    "Hiragana": "おも(う) / し",
+    "Pronunciation": "omo(u) / shi",
+    "Translation": "penser",
+    "NumberOfStrokes": 9,
+    "FormattedNumberOfStrokes": "9",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
     "ImageName": "pere.jpg",
     "Hiragana": "ちち / とう / ふ",
     "Pronunciation": "chichi / tou / fu",
@@ -1306,6 +1346,16 @@
     "Translation": "petite soeur",
     "NumberOfStrokes": 8,
     "FormattedNumberOfStrokes": "8",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
+    "ImageName": "phrase_litterature.jpg",
+    "Hiragana": "ぶん / もん",
+    "Pronunciation": "bun / mon",
+    "Translation": "phrase / littérature",
+    "NumberOfStrokes": 4,
+    "FormattedNumberOfStrokes": "4",
     "MissingElement": false,
     "ErrorMessage": ""
   },
