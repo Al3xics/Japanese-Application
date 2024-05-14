@@ -500,6 +500,16 @@
     "ErrorMessage": ""
   },
   {
+    "ImageName": "emplacement.jpg",
+    "Hiragana": "じょう / ば",
+    "Pronunciation": "jou / ba",
+    "Translation": "emplacement",
+    "NumberOfStrokes": 12,
+    "FormattedNumberOfStrokes": "12",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
     "ImageName": "en-dehors_exterieur.jpg",
     "Hiragana": "そと / がい",
     "Pronunciation": "soto / gai",
@@ -900,6 +910,16 @@
     "ErrorMessage": ""
   },
   {
+    "ImageName": "lieu.jpg",
+    "Hiragana": "ところ / しょ",
+    "Pronunciation": "tokoro / sho",
+    "Translation": "lieu",
+    "NumberOfStrokes": 8,
+    "FormattedNumberOfStrokes": "8",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
     "ImageName": "lire.jpg",
     "Hiragana": "よ(む) / どく",
     "Pronunciation": "yo(mu) / doku",
@@ -1280,6 +1300,16 @@
     "ErrorMessage": ""
   },
   {
+    "ImageName": "partie.jpg",
+    "Hiragana": "ぶ",
+    "Pronunciation": "bu",
+    "Translation": "partie",
+    "NumberOfStrokes": 11,
+    "FormattedNumberOfStrokes": "11",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
     "ImageName": "pays.jpg",
     "Hiragana": "くに / こく / ごく",
     "Pronunciation": "kuni / koku / goku",
@@ -1600,6 +1630,16 @@
     "ErrorMessage": ""
   },
   {
+    "ImageName": "sol_terre_1.jpg",
+    "Hiragana": "ち / じ",
+    "Pronunciation": "chi / ji",
+    "Translation": "sol / terre",
+    "NumberOfStrokes": 6,
+    "FormattedNumberOfStrokes": "6",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
     "ImageName": "son.jpg",
     "Hiragana": "おと / おん",
     "Pronunciation": "oto / on",
@@ -1644,6 +1684,16 @@
     "Hiragana": "ちゃ / さ",
     "Pronunciation": "cha / sa",
     "Translation": "thé",
+    "NumberOfStrokes": 9,
+    "FormattedNumberOfStrokes": "9",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
+    "ImageName": "toit_piece_boutique.jpg",
+    "Hiragana": "おく / や",
+    "Pronunciation": "oku / ya",
+    "Translation": "toit / pièce / boutique",
     "NumberOfStrokes": 9,
     "FormattedNumberOfStrokes": "9",
     "MissingElement": false,
