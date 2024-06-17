@@ -660,6 +660,16 @@
     "ErrorMessage": ""
   },
   {
+    "ImageName": "fermer.jpg",
+    "Hiragana": "し(める) / し(まる) / と(じる) / へい",
+    "Pronunciation": "shi(meru) / shi(maru) / to(jiru) / hei",
+    "Translation": "fermer",
+    "NumberOfStrokes": 11,
+    "FormattedNumberOfStrokes": "11",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
     "ImageName": "feu.jpg",
     "Hiragana": "か / ひ",
     "Pronunciation": "ka / hi",
@@ -1020,6 +1030,16 @@
     "ErrorMessage": ""
   },
   {
+    "ImageName": "marcher.jpg",
+    "Hiragana": "ある(く) / ほ / ぽ",
+    "Pronunciation": "aru(ku) / ho / po",
+    "Translation": "marcher",
+    "NumberOfStrokes": 8,
+    "FormattedNumberOfStrokes": "8",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
     "ImageName": "matin.jpg",
     "Hiragana": "あさ / ちょう",
     "Pronunciation": "asa / chou",
@@ -1260,6 +1280,16 @@
     "ErrorMessage": ""
   },
   {
+    "ImageName": "ouvrir.jpg",
+    "Hiragana": "あ(ける) / あ(く) / ひら(く) / かい",
+    "Pronunciation": "a(keru) / a(ku) / hira(ku) / kai",
+    "Translation": "ouvrir",
+    "NumberOfStrokes": 12,
+    "FormattedNumberOfStrokes": "12",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
     "ImageName": "papier.jpg",
     "Hiragana": "かみ",
     "Pronunciation": "kami",
@@ -1490,6 +1520,16 @@
     "ErrorMessage": ""
   },
   {
+    "ImageName": "rester.jpg",
+    "Hiragana": "と(まる) / は(く) / ぱ(く)",
+    "Pronunciation": "to(maru) / ha(ku) / pa(ku)",
+    "Translation": "rester",
+    "NumberOfStrokes": 8,
+    "FormattedNumberOfStrokes": "8",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
     "ImageName": "riviere_fleuve.jpg",
     "Hiragana": "かわ / がわ",
     "Pronunciation": "kawa / gawa",
@@ -1656,6 +1696,16 @@
     "Translation": "sortir",
     "NumberOfStrokes": 5,
     "FormattedNumberOfStrokes": "5",
+    "MissingElement": false,
+    "ErrorMessage": ""
+  },
+  {
+    "ImageName": "stopper.jpg",
+    "Hiragana": "と(める) / と(まる) / し",
+    "Pronunciation": "to(meru) / to(maru) / shi",
+    "Translation": "stopper",
+    "NumberOfStrokes": 4,
+    "FormattedNumberOfStrokes": "4",
     "MissingElement": false,
     "ErrorMessage": ""
   },
